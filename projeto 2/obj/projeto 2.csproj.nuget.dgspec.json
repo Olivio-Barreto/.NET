@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/olivio-barreto/Git Repositories/.NET-1/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/home/olivio-barreto/Git Repositories/.NET-1/projeto 2/projeto 2.csproj": {}
   },
   "projects": {
-    "/home/olivio-barreto/Git Repositories/.NET-1/ConsoleApp1/ConsoleApp1.csproj": {
+    "/home/olivio-barreto/Git Repositories/.NET-1/projeto 2/projeto 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/olivio-barreto/Git Repositories/.NET-1/ConsoleApp1/ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "/home/olivio-barreto/Git Repositories/.NET-1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/home/olivio-barreto/Git Repositories/.NET-1/projeto 2/projeto 2.csproj",
+        "projectName": "projeto 2",
+        "projectPath": "/home/olivio-barreto/Git Repositories/.NET-1/projeto 2/projeto 2.csproj",
         "packagesPath": "/home/olivio-barreto/.nuget/packages/",
-        "outputPath": "/home/olivio-barreto/Git Repositories/.NET-1/ConsoleApp1/obj/",
+        "outputPath": "/home/olivio-barreto/Git Repositories/.NET-1/projeto 2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/olivio-barreto/.nuget/NuGet/NuGet.Config"
