@@ -9,3 +9,6 @@ var pessoa2 = new Pessoa("@@@@", 01, carro);
 
 carro.Ligar();
 carro.Desligar();
+
+Console.WriteLine(pessoa1);
+Console.WriteLine(pessoa2);
