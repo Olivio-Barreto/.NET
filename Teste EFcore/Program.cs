@@ -18,7 +18,7 @@ public class Program
             
             //
 
-            context.Purchases.Update(purchase);
+            var p = context.Purchases.FirstOrDefault(p => p.Product == "Bola");
         }
     }
 }
