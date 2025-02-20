@@ -18,7 +18,7 @@ public class Program
             
             //
 
-            var p = context.Purchases.FirstOrDefault(p => p.Product == "Bola");
+            var p = context.Purchases.Where(p => p.Price > 20);
         }
     }
 }
