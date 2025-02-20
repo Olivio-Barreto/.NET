@@ -6,3 +6,6 @@ var carro = new Carro("####", motor);
 
 var pessoa1 = new Pessoa("####", 00);
 var pessoa2 = new Pessoa("@@@@", 01, carro);
+
+carro.Ligar();
+carro.Desligar();
