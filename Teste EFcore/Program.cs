@@ -18,7 +18,7 @@ public class Program
             
             //
 
-            context.Remove(purchase);
+            context.Purchases.Update(purchase);
         }
     }
 }
