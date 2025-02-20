@@ -23,4 +23,14 @@ public class Pessoa
     {
         Carro = carro;
     }
+
+
+    public override string ToString()
+    {
+        if(Carro != null)
+        {
+            return $"Nome: {Nome}, Idade: {Idade}, Carro: {Carro}";
+        }
+        return $"Nome: {Nome}, Idade: {Idade}";
+    }
 }
