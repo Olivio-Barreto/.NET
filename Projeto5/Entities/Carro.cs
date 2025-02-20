@@ -23,4 +23,10 @@ public class Carro : IVeiculo
     {
         Console.WriteLine("Carro Ligado!");
     }
+
+    public override string ToString()
+    {
+        return $"Modelo: {Modelo}, \n" +
+        $"Motor: Potencia {Motor.Potencia} | Combustível {Motor.TipoCombustivel}";
+    }
 }
