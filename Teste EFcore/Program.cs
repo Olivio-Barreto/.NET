@@ -18,7 +18,7 @@ public class Program
             
             //
 
-            var allPurchases = context.Purchases.ToList();
+            context.Remove(purchase);
         }
     }
 }
