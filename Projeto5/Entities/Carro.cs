@@ -27,6 +27,6 @@ public class Carro : IVeiculo
     public override string ToString()
     {
         return $"Modelo: {Modelo}, \n" +
-        $"Motor: Potencia {Motor.Potencia} | Combustível {Motor.TipoCombustivel}";
+        $"Motor: Potencia {Motor?.Potencia} | Combustível {Motor.TipoCombustivel}\n";
     }
 }
