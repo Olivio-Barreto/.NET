@@ -1,4 +1,9 @@
 obj
 bin
 debug
+<<<<<<< HEAD
 *.sln                             
+=======
+*.sln
+*.idea
+>>>>>>> 1dbaa4a (Reconfigurando .gitignore)
