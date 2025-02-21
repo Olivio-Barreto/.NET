@@ -14,4 +14,9 @@ public class PrintService
         _values[_count] = value;
         _count++;
     }
+
+    public int First()
+    {
+        return _values[0];
+    }
 }
