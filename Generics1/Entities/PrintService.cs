@@ -17,6 +17,10 @@ public class PrintService
 
     public int First()
     {
+        if (_values.Length == 0)
+        {
+            throw new InvalidOperationException("The Array has no elements!");
+        }
         return _values[0];
     }
 }
