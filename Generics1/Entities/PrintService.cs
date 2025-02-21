@@ -7,6 +7,10 @@ public class PrintService
 
     public void AddValue(int value)
     {
+        if (_count == 10)
+        {
+            throw new InvalidOperationException("Print is full");
+        }
         _values[_count] = value;
         _count++;
     }
