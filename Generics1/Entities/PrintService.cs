@@ -23,4 +23,18 @@ public class PrintService
         }
         return _values[0];
     }
+
+    public void Print()
+    {
+        Console.Write("[");
+        for (int i = 0; i < _count - 1; i++)
+        {
+            Console.Write($"{_values[i]}, ");
+            if (_values[_count - 1] > 0)
+            {
+                Console.Write(_values[_count - 1]);
+            }
+        }
+        Console.Write("]");
+    }
 }
