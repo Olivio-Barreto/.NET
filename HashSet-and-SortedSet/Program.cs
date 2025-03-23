@@ -7,6 +7,10 @@ public class Program
         // coolection expression
         SortedSet<int> a = [1, 2, 3, 4];
         SortedSet<int> b = [5, 6, 7, 8];
+
+        // union
+        SortedSet<int> c = new SortedSet<int>(a);
+        c.UnionWith(b);
     }
 
     static void PrintCollection<T>(IEnumerable<T> collection)
