@@ -17,7 +17,7 @@ public class Program
     {
         foreach (T obj in collection)
         {
-            Console.WriteLine(obj + " ");
+            Console.Write(obj + " ");
         }
 
         Console.WriteLine();
