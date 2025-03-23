@@ -4,7 +4,9 @@ public class Program
 {
     static void Main(string[] args)
     {
-
+        // coolection expression
+        SortedSet<int> a = [1, 2, 3, 4];
+        SortedSet<int> b = [5, 6, 7, 8];
     }
 
     static void PrintCollection<T>(IEnumerable<T> collection)
