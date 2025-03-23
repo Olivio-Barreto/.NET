@@ -10,13 +10,18 @@ public class Program
 
         // union
         SortedSet<int> c = new SortedSet<int>(a);
-        c.UnionWith(b);
+        c.UnionWith(b); // C recebe elementos de A e B unidos
         PrintCollection(c);
 
         // intersection
         SortedSet<int> d = new SortedSet<int>(a);
-        d.IntersectWith(b);
+        d.IntersectWith(b); // elementos que são iguais entre as coleções
         PrintCollection(d);
+
+        // diffenrence
+        SortedSet<int> e = new SortedSet<int>(a);
+        e.ExceptWith(b); // elementos de A com os de B excluídos
+        PrintCollection(e);
     }
 
     static void PrintCollection<T>(IEnumerable<T> collection)
