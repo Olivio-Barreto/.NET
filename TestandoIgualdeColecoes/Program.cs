@@ -1,4 +1,5 @@
 ﻿using System;
+using TestandoIgualdeColecoes.Entities;
 
 namespace TestandoIgualdeColecoes
 {
@@ -6,13 +7,28 @@ namespace TestandoIgualdeColecoes
     {
         static void Main(string[] args)
         {
-            HashSet<string> set = new HashSet<string>();
+            /* Se o GetHashCode não estiver implementado no tipo:
+             * Tipo Referência => Compara a referência dos objetos
+             * Tipo Valor => Compara o valor dos atributos
+            */
 
-            set.Add("Fulano");
-            set.Add("Ciclano");
+            HashSet<Product> collectionProducts = new HashSet<Product>();
 
-            // verificando elementos se GetHashCode e Equals são implementados no tipo da coleção
-            Console.WriteLine(set.Contains("Fulano"));
+            collectionProducts.Add(new Product("Celular", 2000));
+            collectionProducts.Add(new Product("TV", 5000));
+
+            HashSet<Point> collectionPoints = new HashSet<Point>();
+
+            collectionPoints.Add(new Point(2, 4));
+            collectionPoints.Add(new Point(3, 2));
+
+            // executando com tipo referência
+            Product product = new Product("TV", 5000);
+            Console.WriteLine(collectionProducts.Contains(product));
+
+            // executando com tipo valor
+            Point point = new Point(2, 4);
+            Console.WriteLine(collectionPoints.Contains(point));
         }
     }
 }
