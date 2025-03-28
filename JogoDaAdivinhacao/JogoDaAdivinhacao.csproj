@@ -6,7 +6,6 @@
         <LangVersion>preview</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>TreinandoHasSet</RootNamespace>
     </PropertyGroup>
 
 </Project>
