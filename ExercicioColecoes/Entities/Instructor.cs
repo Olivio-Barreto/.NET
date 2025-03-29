@@ -8,8 +8,11 @@ public class Instructor(string name)
 
     public List<PortalCourse> Courses { get; set; } = null!;
 
-    public void AddCourse(PortalCourse course)
+    public void AddCourse(params PortalCourse[] courses)
     {
-        Courses.Add(course);
+        foreach (var item in courses)
+        {
+            Courses.Add(item);
+        }
     }
 }
