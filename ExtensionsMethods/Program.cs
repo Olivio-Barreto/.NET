@@ -7,8 +7,8 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        var temp = new DateTime(2025, 04, 03, 07, 30, 00);
+        string s1 = "Ola mundo!";
 
-        Console.WriteLine(temp.ElapsedTime());
+        Console.WriteLine(s1.Cut(1));
     }
 }
